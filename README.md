@@ -1,1 +1,1 @@
-# webapplication-ethereumblockchain
+It mainly consists of a web application where we would like to transfer money(ether) from one account to other using metamask plugin which stores these accounts and shows the end result,this whole thing works on ethereum blockchain. The money transferred is in the form of a cryptocurrency which we create using solidity programing language.
