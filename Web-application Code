@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CryptoWallet</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Sharether</h1>
+        <h2> Wallet Info</h2>
+
+        <p>Account:</p>
+        <p id="account"></p>
+        
+        <p>Eth balance :</p>
+        <p id="balance"></p>
+
+        <p>Token balance :</p>
+        <p id="tokens"></p>
+     
+        <h3>Send Tokens</h3>
+        <input id="to">
+        <input id="amount">
+        <button type="button" onclick="updatedata()">Submit</button>
+            
+       <h4>Transactions</h4>
+       
+       <div id="rightThing">
+    <label for="blockno" class="col-lg-2 control-label">Block no: </label> 
+    <p id="blockno"></p></di
